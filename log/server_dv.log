@@ -1,0 +1,13 @@
+2022-07-29 18:19:05 INFO  PruebaUnidad2DvApplication:20 - Hola Info
+2022-07-29 18:19:05 DEBUG PruebaUnidad2DvApplication:21 - Hola Debug2022-07-29 19:18:47 DEBUG PruebaUnidad2DvApplication:60 - Se ha insertado el Doctor: Doctor [id=1, cedula=123456, nombre=Domenica, apellido=Vizcarra, fechaNacimiento=1998-10-27T10:20, numeroConsultorio=1, codigoSenescyt=112344, genero=F]
+2022-07-29 19:18:47 DEBUG PruebaUnidad2DvApplication:64 - Se ha insertado el Doctor: Doctor [id=2, cedula=789012, nombre=Luis, apellido=Ortiz, fechaNacimiento=1978-01-17T20:30, numeroConsultorio=3, codigoSenescyt=679889, genero=M]
+2022-07-29 19:18:47 DEBUG PruebaUnidad2DvApplication:88 - Se ha insertado el Paciente: Paciente [id=1, cedula=173425332, nombre=Camila, apellido=Vaquez, fechaNacimiento=1997-11-07T20:03, codigoSeguro=123, estatura=159, peso=50, genero=F]
+2022-07-29 19:18:47 DEBUG PruebaUnidad2DvApplication:92 - Se ha insertado el Paciente: Paciente [id=2, cedula=9982112, nombre=Rodrigo, apellido=Mendez, fechaNacimiento=1977-12-04T19:13, codigoSeguro=456, estatura=169, peso=70, genero=M]
+2022-07-29 19:23:53 DEBUG PruebaUnidad2DvApplication:98 - Cantidad de registros actualizados: 1
+2022-07-29 19:39:48 DEBUG PruebaUnidad2DvApplication:103 - Pacientes encontrados: PacienteSencillo [cedula=173425332, nombre=Camila, fechaNacimiento=1997-11-07T20:03, genero=F]
+2022-07-29 19:41:49 DEBUG PruebaUnidad2DvApplication:62 - Se ha insertado el Doctor: Doctor [id=1, cedula=123456, nombre=Domenica, apellido=Vizcarra, fechaNacimiento=1998-10-27T10:20, numeroConsultorio=1, codigoSenescyt=112344, genero=F]
+2022-07-29 19:41:49 DEBUG PruebaUnidad2DvApplication:66 - Se ha insertado el Doctor: Doctor [id=2, cedula=789012, nombre=Luis, apellido=Ortiz, fechaNacimiento=1978-01-17T20:30, numeroConsultorio=3, codigoSenescyt=679889, genero=M]
+2022-07-29 19:41:49 DEBUG PruebaUnidad2DvApplication:90 - Se ha insertado el Paciente: Paciente [id=1, cedula=173425332, nombre=Camila, apellido=Vaquez, fechaNacimiento=1997-11-07T20:03, codigoSeguro=123, estatura=159, peso=50, genero=F]
+2022-07-29 19:41:49 DEBUG PruebaUnidad2DvApplication:94 - Se ha insertado el Paciente: Paciente [id=2, cedula=9982112, nombre=Rodrigo, apellido=Mendez, fechaNacimiento=1977-12-04T19:13, codigoSeguro=456, estatura=169, peso=70, genero=M]
+2022-07-29 19:41:49 DEBUG PruebaUnidad2DvApplication:102 - Cantidad de registros actualizados: 1
+2022-07-29 19:41:49 DEBUG PruebaUnidad2DvApplication:107 - Pacientes encontrados: PacienteSencillo [cedula=173425332, nombre=Camila, fechaNacimiento=1997-11-07T20:03, genero=F]
