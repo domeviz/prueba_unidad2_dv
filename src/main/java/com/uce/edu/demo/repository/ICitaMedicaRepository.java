@@ -16,5 +16,5 @@ public interface ICitaMedicaRepository {
 	
 	public int actualizarPorNumeroCitaQuery(String numeroCita, String diagnostico, String receta, LocalDateTime fechaProximaCita);
 
-	public CitaMedica buscarPorNumero(String numero);
+	public CitaMedica buscarPorNumero(String numeroCita);
 }
