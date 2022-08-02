@@ -15,4 +15,6 @@ public interface ICitaMedicaRepository {
 	public void eliminar(Integer id);
 	
 	public int actualizarPorNumeroCitaQuery(String numeroCita, String diagnostico, String receta, LocalDateTime fechaProximaCita);
+
+	public CitaMedica buscarPorNumero(String numero);
 }

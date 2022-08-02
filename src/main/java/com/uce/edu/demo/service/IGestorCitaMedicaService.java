@@ -15,4 +15,5 @@ public interface IGestorCitaMedicaService {
 	
 	public List<PacienteSencillo> reportePacientes(LocalDateTime fechaNacimiento, String genero);
 	
+	public void actualizarCita(String numeroCita, String diagnostico, String receta, LocalDateTime fechaProximaCita);
 }

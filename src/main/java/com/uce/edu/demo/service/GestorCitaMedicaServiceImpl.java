@@ -59,4 +59,17 @@ public class GestorCitaMedicaServiceImpl implements IGestorCitaMedicaService {
 		return this.iPacienteRepository.reportePacientes(fechaNacimiento, genero);
 	}
 
+	@Override
+	public void actualizarCita(String numeroCita, String diagnostico, String receta,
+			LocalDateTime fechaProximaCita) {
+		// TODO Auto-generated method stub
+		CitaMedica cm =this.iCitaMedicaRepository.buscarPorNumero(numeroCita);
+		cm.setDiagnostico(diagnostico);
+		cm.setReceta(receta);
+		cm.setFechaProximaCita(fechaProximaCita);
+		
+		 this.iCitaMedicaRepository.actualizar(cm);
+	}
+	
+
 }

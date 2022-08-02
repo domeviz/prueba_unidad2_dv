@@ -5,6 +5,7 @@ import java.time.LocalDateTime;
 import javax.persistence.EntityManager;
 import javax.persistence.PersistenceContext;
 import javax.persistence.Query;
+import javax.persistence.TypedQuery;
 import javax.transaction.Transactional;
 
 import org.springframework.stereotype.Repository;
@@ -52,6 +53,14 @@ public class CitaMedicaRepositoryImpl implements ICitaMedicaRepository{
 		myQuery.setParameter("datoReceta", receta);
 		myQuery.setParameter("datoFechaProximaCita", fechaProximaCita);
 		return myQuery.executeUpdate();
+	}
+
+	@Override
+	public CitaMedica buscarPorNumero(String numero) {
+		// TODO Auto-generated method stub
+		TypedQuery<CitaMedica> myTypedQuery=this.entityManager.createQuery("SELECT c FROM CitaMedica c WHERE c.numero=: datoNumero", CitaMedica.class);
+		myTypedQuery.setParameter("datoNumero", numero);
+		return myTypedQuery.getSingleResult();
 	}
 
 }

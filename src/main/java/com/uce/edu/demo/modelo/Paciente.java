@@ -34,9 +34,9 @@ public class Paciente {
 	@Column(name = "paci_codigo_seguro")
 	private String codigoSeguro;
 	@Column(name = "paci_estatura")
-	private String estatura;
+	private Double estatura;
 	@Column(name = "paci_peso")
-	private String peso;
+	private Double peso;
 	@Column(name = "paci_genero")
 	private String genero;
 
@@ -99,19 +99,19 @@ public class Paciente {
 		this.codigoSeguro = codigoSeguro;
 	}
 
-	public String getEstatura() {
+	public Double getEstatura() {
 		return estatura;
 	}
 
-	public void setEstatura(String estatura) {
+	public void setEstatura(Double estatura) {
 		this.estatura = estatura;
 	}
 
-	public String getPeso() {
+	public Double getPeso() {
 		return peso;
 	}
 
-	public void setPeso(String peso) {
+	public void setPeso(Double peso) {
 		this.peso = peso;
 	}
 
